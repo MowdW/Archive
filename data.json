@@ -1,0 +1,122 @@
+{
+  "folders": [
+    {
+      "id": "1775575160861",
+      "name": "阅读笔记",
+      "type": "folder",
+      "color": "#8b5cf6",
+      "children": [],
+      "filterConditions": [
+        {
+          "id": "1775575166180",
+          "type": "property",
+          "operator": "contains",
+          "value": "阅读笔记",
+          "key": "tags"
+        }
+      ],
+      "x": 1084.3333333333333,
+      "y": -247.33333333333337
+    },
+    {
+      "id": "1775575275682",
+      "name": "日记",
+      "type": "folder",
+      "color": "#fbbf24",
+      "children": [],
+      "filterConditions": [
+        {
+          "id": "1775575279826",
+          "type": "path",
+          "operator": "contains",
+          "value": "日记"
+        }
+      ],
+      "x": 97,
+      "y": -456
+    },
+    {
+      "id": "1775577001166",
+      "name": "测试1",
+      "type": "folder",
+      "color": "#10b981",
+      "children": [
+        {
+          "id": "测试2.md",
+          "name": "测试2",
+          "subName": "md",
+          "type": "file",
+          "path": "测试2.md",
+          "x": 1129,
+          "y": -67,
+          "content": ""
+        }
+      ],
+      "filterConditions": [],
+      "x": 1530.6666666666667,
+      "y": -70.66666666666666
+    },
+    {
+      "id": "1775577465194",
+      "name": "recent",
+      "type": "folder",
+      "color": "#ec4899",
+      "children": [],
+      "filterConditions": [],
+      "x": 64.99999999999989,
+      "y": -101.00000000000017
+    },
+    {
+      "id": "1775577476780",
+      "name": "电费房东方",
+      "type": "folder",
+      "color": "#64748b",
+      "children": [
+        {
+          "id": "玩儿侧耳.md",
+          "name": "玩儿侧耳",
+          "subName": "md",
+          "type": "file",
+          "path": "玩儿侧耳.md",
+          "x": 906.6666666666666,
+          "y": 371.6666666666666,
+          "content": ""
+        },
+        {
+          "id": "热菜二创.md",
+          "name": "热菜二创",
+          "subName": "md",
+          "type": "file",
+          "path": "热菜二创.md",
+          "x": 871.6666666666663,
+          "y": 260.6666666666664,
+          "content": "水电费水电费水电费水电费说法的是"
+        }
+      ],
+      "filterConditions": [],
+      "x": 437.33333333333326,
+      "y": -411.3333333333333
+    },
+    {
+      "id": "为人才.md",
+      "name": "为人才",
+      "subName": "md",
+      "type": "file",
+      "path": "为人才.md",
+      "x": 785.6666666666667,
+      "y": -359.9999999999999,
+      "content": "水电费对方水电费电风扇水电费水电费说法的"
+    },
+    {
+      "id": "1775579068865",
+      "name": "这是十分放松放松",
+      "type": "folder",
+      "color": "#fbbf24",
+      "children": [],
+      "filterConditions": [],
+      "x": 1076,
+      "y": 254
+    }
+  ],
+  "newFileSaveLocation": "档案/资料"
+}

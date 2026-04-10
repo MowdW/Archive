@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Liu+Jian+Mao+Cao&family=Ma+Shan+Zheng&family=Zhi+Mang+Xing&display=swap');
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --color-obsidian-bg: var(--background-primary, #ffffff);
+  --color-obsidian-bg-alt: var(--background-secondary, #f5f5f5);
+  --color-obsidian-text: var(--text-normal, #2e3338);
+  --color-obsidian-accent: var(--interactive-accent, #7c4dff);
+}
+
+@layer base {
+  :root {
+    --background-primary: #ffffff;
+    --background-secondary: #f5f5f5;
+    --text-normal: #2e3338;
+    --text-muted: #888888;
+    --interactive-accent: #7c4dff;
+    --border-color: #e5e5e5;
+  }
+
+  .theme-dark {
+    --background-primary: #1e1e1e;
+    --background-secondary: #2a2a2a;
+    --text-normal: #dcddde;
+    --text-muted: #999999;
+    --interactive-accent: #7c4dff;
+    --border-color: #3e3e3e;
+  }
+}
+
+@layer components {
+  .obsidian-preview-content h1 {
+    @apply text-3xl font-bold mb-6 mt-12 first:mt-0;
+  }
+  .obsidian-preview-content h2 {
+    @apply text-2xl font-bold mb-4 mt-10;
+  }
+  .obsidian-preview-content h3 {
+    @apply text-xl font-bold mb-3 mt-8;
+  }
+  .obsidian-preview-content ul {
+    @apply list-disc list-inside space-y-2 mb-6;
+  }
+  .obsidian-preview-content li {
+    @apply text-obsidian-text opacity-90;
+  }
+}
+
+@layer utilities {
+  .perspective-1000 {
+    perspective: 1000px;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+body {
+  @apply antialiased;
+}
