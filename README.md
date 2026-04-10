@@ -117,7 +117,7 @@ A: 在插件设置中设置 "新建文件保存位置" 选项。
 ## 作者
 
 - **作者**：马可菠萝
-- **GitHub**：[https://github.com/MowdW/Archive]
+- **GitHub**：https://github.com/MowdW/Archive
 
 ## 贡献
 
