@@ -117,12 +117,7 @@ A: 在插件设置中设置 "新建文件保存位置" 选项。
 ## 作者
 
 - **作者**：马可菠萝
-- **邮箱**：[your-email@example.com]（可选）
-- **GitHub**：[your-github-username]（可选）
-
-## 许可证
-
-[MIT License](LICENSE)
+- **GitHub**：[[your-github-username](https://github.com/MowdW/Archive)]（可选）
 
 ## 贡献
 
